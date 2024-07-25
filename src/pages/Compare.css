@@ -1,0 +1,118 @@
+    .compare-page {
+        padding: 2rem;
+        color: #fff;
+     }
+
+    form {
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    input[type="text"] {
+        padding: 12px;
+        width: 100%;
+        margin-right: 1rem;
+        border: 2px solid #f7a400;
+        border-radius: 8px;
+        background-color: #2C2F54;
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    button {
+        padding: 12px 24px;
+        background-color: #f7a400;
+        color: #1A1B4B;
+        border: 2px solid #f7a400;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background-color .3s ease, color .3s ease;
+    }
+    button:hover{
+        background-color: transparent;
+        border: 2px solid #f7a400;
+        color: #f7a400;
+    }
+
+    .recommended-movies {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .recommended-movies div {
+        width: 30%;
+        color: #FFF;
+        margin-bottom: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #1A1B4B;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+
+    .recommended-movies .movie-card h2 {
+        width: 200px;
+    }
+
+    .recommended-movies .movie-card img {
+        width: 200%;
+    }
+
+    .search-results,
+    .selected-movies  
+     {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .search-results div,
+    .selected-movies div {
+        padding: 1rem;
+        width: 300px;
+        background-color: #1A1B4B;
+        border-radius: 10px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: background-color .3s ease, transform .3s ease;
+        margin-top: 10px;
+    }
+
+     div img {
+        max-width: 150px;
+    }
+
+    .selected-movies div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .selected-movies button {
+        cursor: pointer;
+        background-color: #f7a400;
+        color: #1A1B4B;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    .selected-movies button:hover {
+        background-color: transparent;
+        border: 2px solid #f7a400;
+        color: #f7a400;
+    }
+
